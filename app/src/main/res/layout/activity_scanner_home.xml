@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SCANNER_HOME"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/toppp">
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/scannerl"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="3dp"
+            />
+
+
+        <TextView
+            android:layout_width="343dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:text="Scanner Mode"
+            android:textColor="@color/cyan"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagee"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toppp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+         />
+
+    <Button
+        android:id="@+id/snapp"
+        style="@style/Theme.Material3.Dark.Dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagee"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="33dp"
+        android:text="Take a Snap" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/snapp"
+        android:id="@+id/middd">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Text Recognition"
+        style="@style/Theme.Material3.Dark.Dialog"
+        android:layout_below="@id/snapp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/recog"/>
+
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="338dp"
+        android:layout_height="182dp"
+        android:layout_below="@id/middd"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:text="TextView"
+        android:textSize="20dp"
+        android:padding="2dp"/>
+
+</RelativeLayout>

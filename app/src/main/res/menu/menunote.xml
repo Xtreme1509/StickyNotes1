@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Settings"
+        android:id="@+id/sett">
+        <menu>
+            <item android:title="BackGround Color"
+                android:id="@+id/settbg">
+                <menu>
+                    <item android:title="Light Red"
+                        android:id="@+id/bglr"/>
+                    <item android:title="Light Green"
+                        android:id="@+id/bglg"/>
+                    <item android:title="Light Blue"
+                        android:id="@+id/bglb"/>
+                    <item android:title="Orange"
+                        android:id="@+id/orange"/>
+                    <item android:title="Light Pink"
+                        android:id="@+id/pnk"/>
+                    <item android:title="Light Yellow"
+                        android:id="@+id/ylw"/>
+                    <item android:title="Black"
+                        android:id="@+id/blk"/>
+                    <item android:title="Purple"
+                        android:id="@+id/pur"/>
+
+
+
+                </menu>
+            </item>
+            <item android:title="BackGround Images"
+                android:id="@+id/bgimg">
+                <menu>
+                <item android:title="Snow Mountain"
+                    android:id="@+id/sm"/>
+                <item android:title="Road"
+                    android:id="@+id/rd"/>
+                    <item android:title="Mixed"
+                        android:id="@+id/i2"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Contact"
+        android:id="@+id/lot"
+        />
+
+    <item android:title="Image Scanner"
+        android:id="@+id/imagescanner"
+        />
+
+
+    <item android:title="Logout"
+        android:id="@+id/lout"
+        />
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="ORANGE">#FFA500</color>
+    <color name="gray">#888888</color>
+    <color name="light_gray">#CCCCCC</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#FF0000</color>
+    <color name="green">#00FF00</color>
+    <color name="blue">#0000FF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="magenta">#FF00FF</color>
+    <color name="transparent">#00000000</color>
+    <color name="lightred"> #ffcccb</color>
+    <color name="lightblue"> #a6dced</color>
+    <color name="lightpink"> #e3b0c8</color>
+    <color name="lightyellow"> #ffe440</color>
+    <color name="lightgreen"> #7cfc00</color>
+
+
+
+
+
+
+
+    <color name="card_bg">#D3D1D1</color>
+    <color name="relative_bg">#2b2e4a</color>
+    <color name="countycode_bg">#EAE9E9</color>
+
+
+</resources>
